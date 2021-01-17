@@ -1,0 +1,23 @@
+h1 {
+    background-color: black;
+    color: white;
+}
+
+h2 {
+    background-color: burlywood;
+    color: white;
+}
+
+.policeMax {
+    font-size: 8rem;
+    color: green;
+    background-color: yellow;
+    padding: 1rem;
+}
+
+
+/* je peux mettre un commmentaire en CSS */
+
+
+/* ceci est un commentaire
+sur plusieur ligne */
