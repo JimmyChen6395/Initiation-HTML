@@ -1,11 +1,198 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Cours LBA</title>
+    <link rel="stylesheet" href="src/css/index.css">
+
 </head>
+
 <body>
-    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="/qui-sommes-nous">Qui sommes-nous</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Ceci est un commentaire -->
+    <h1 class="policeMax">Mes balises titres</h1>
+    <h2>ceci est la balise h2</h2>
+    <h3>ceci est la balise h3</h3>
+    <h4>ceci est la balise h4</h4>
+    <h5>ceci est la balise h5</h5>
+    <h6>ceci est la balise h6</h6>
+
+
+    <p><em> Bonjour je m'appelle Jimmy </em> <br>
+        <strong> j'ai 25 ans </strong> <br>
+        <del>je suis en formation dev web</del></p>
+    <!-- hr c'est pour avoir une ligne en dessous -->
+    <hr>
+
+    <a href="http://google.be" title="coucou" target="_blank" rel="noopener">Cliquez ici pour google</a>
+    <!-- la commande en dessous c'est pour les images -->
+    <img src="src/img/golden-retriever.jpg" alt="Titre de mon image">
+
+
+    <h3 class="policeMax">Liste ordonnées</h3>
+    <ol>
+        <li>un</li>
+        <li>deux</li>
+        <li>trois</li>
+        <li>quatre</li>
+        <li>cinq</li>
+    </ol>
+    <ol start="6">
+        <li>un</li>
+        <li>deux</li>
+        <li>trois</li>
+        <li>quatre</li>
+        <li>cinq</li>
+    </ol>
+    <ol reversed>
+        <li>un</li>
+        <li>deux</li>
+        <li>trois</li>
+        <li>quatre</li>
+        <li>cinq</li>
+    </ol>
+
+    <h3>Liste non-ordonées</h3>
+    <ul>
+        <li><a href="#">un</a></li>
+        <li>deux</li>
+        <li>trois</li>
+        <li>quatre</li>
+        <li>cinq</li>
+    </ul>
+
+    <!-- <ul> pour mettre direct plusieur ligne : (li*5) -->
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    <h3>LES TABLEAUX</h3>
+    <table>
+        <caption>ceci est le titre de mon tableau</caption>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>Age</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Duck</td>
+            <td>Riri</td>
+            <td>12</td>
+            <td>Riri@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Duck</td>
+            <td>Fifi</td>
+            <td>13</td>
+            <td>Fifi@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Duck</td>
+            <td>Loulou</td>
+            <td>14</td>
+            <td>Loulou@gmail.com</td>
+        </tr>
+    </table>
+
+    <form>
+        <p><input type="text" placeholder="Nom" required></p>
+        <p><input type="color"></p>
+        <p><input type="checkbox"></p>
+        <p><input type="date"></p>
+        <p><input type="datetime-local"></p>
+        <p><input type="email"></p>
+        <p><input type="file"></p>
+        <p><input type="image" src="src/img/golden-retriever.jpg"></p>
+        <p><input type="month"></p>
+        <p><input type="number"></p>
+        <p><input type="password" required></p>
+        <p><input type="radio"></p>
+        <p><input type="range"></p>
+        <p><input type="search"></p>
+        <p><input type="tel"></p>
+        <p><input type="time"></p>
+        <p><input type="url"></p>
+        <p><input type="week"></p>
+
+
+        <p>Entrez votre nom</p>
+        <p><input type="text" placeholder="Nom"></p>
+
+        <label>Entrez votre nom</label>
+        <p><input type="text" placeholder="Nom"></p>
+
+        <div>
+            <select>
+                    <option value="Pommes">Pommes</option>
+                    <option value="Poires">Poires</option>
+                    <option value="Fraises">Fraises</option>
+                </select>
+        </div>
+
+        <div>
+            <textarea cols="30" rows="10"></textarea><br>
+            <textarea cols="50" rows="20"></textarea>
+        </div>
+
+        <button type="submit">Valider mon formulaire</button>
+
+
+
+    </form>
+
+    <h3>Les types de balise (Display)</h3>
+
+    <p>Form, h1 à h6, hr, li, ol, ul, p, et la balises de type bloc</p>
+    <p>Ceci est un autre paragraphe, et meme si dans mon vsc je le met à la suite d'une autre balise, ce paragraphe s'inscrira en dessous</p>
+    <p>a, br, button, em, img, input, label, metern progress, select, span,strong, textarea</p>
+    <p>sont des balises inline, càd qu'elles occupent uniquement l'espace dont elles on besoin</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, suscipit maxime fugiat aut nostrum modi unde voluptas illum voluptate esse repellat soluta eaque tenetur facilis,
+        <span style="color: rgb(255, 0, 0);">nesciunt, ad fuga excepturi provident!Consequatur minima ratione, illum, 
+        velit fugit, deserunt adipisci necessitatibus saepe rerum dolorem itaque tempora amet?</span> Nam consectetur accusantium nisi saepe dicta sint nesciunt unde aut totam illum assumenda, ab et?</p>
+
+
+    <section style="background-color: burlywood;margin-bottom: 3em;">
+        <h3>Ceci est le contenu de ma section</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum laboriosam incidunt quaerat rerum. At maiores exercitationem dolorum cupiditate accusamus ut, consequatur alias architecto! Animi dolore quia odit veniam, qui fugiat.</p>
+        <form action="">
+            <input type="text"><br>
+            <input type="email"><br>
+            <button type='submit'>Valider</button>
+        </form>
+    </section>
+
+    <p>En dehors de ma section</p>
+
+    <footer style="background-color: black; padding: 2rem;">
+        <p style="color: white;">2021 - Jimmy Chen</p>
+    </footer>
+
+    <h3>questions au prof</h3>
+
+    <p>comment on fait pour lancer mon test projet sur le browser ?</p>
+    <p>c'est quoi le s.css ?</p>
+    <p>J'ai télécharger un code source mais je n'arrive pas à le lancer</p>
+
+
+
+
 </body>
+
 </html>
